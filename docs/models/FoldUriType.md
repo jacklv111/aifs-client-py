@@ -1,4 +1,4 @@
-# openapi_client.model.fold_uri_type.FoldUriType
+# aifs_client.model.fold_uri_type.FoldUriType
 
 the folder path of the resource
 

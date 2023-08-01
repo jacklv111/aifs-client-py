@@ -1,4 +1,4 @@
-# openapi_client.model.move_data_view_items_request.MoveDataViewItemsRequest
+# aifs_client.model.move_data_view_items_request.MoveDataViewItemsRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

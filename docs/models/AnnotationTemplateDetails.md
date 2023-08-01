@@ -1,4 +1,4 @@
-# openapi_client.model.annotation_template_details.AnnotationTemplateDetails
+# aifs_client.model.annotation_template_details.AnnotationTemplateDetails
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.word_list.WordList
+# aifs_client.model.word_list.WordList
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

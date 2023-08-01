@@ -1,4 +1,4 @@
-# openapi_client.model.s3_storage.S3Storage
+# aifs_client.model.s3_storage.S3Storage
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

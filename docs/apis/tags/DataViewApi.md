@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.data_view_api.DataViewApi
+# aifs_client.apis.tags.data_view_api.DataViewApi
 
 All URIs are relative to *https://www.example.com/api/open/v1*
 
@@ -39,19 +39,19 @@ Create a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.create_data_view_request import CreateDataViewRequest
-from openapi_client.model.create_data_view_success_resp import CreateDataViewSuccessResp
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.create_data_view_request import CreateDataViewRequest
+from aifs_client.model.create_data_view_success_resp import CreateDataViewSuccessResp
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -73,7 +73,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->create_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -140,17 +140,17 @@ Delete data item in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
+import aifs_client
+from aifs_client.apis.tags import data_view_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -169,7 +169,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
             query_params=query_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->delete_data_item_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -255,17 +255,17 @@ Delete a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
+import aifs_client
+from aifs_client.apis.tags import data_view_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -278,7 +278,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.delete_data_view(
             path_params=path_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->delete_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -343,19 +343,19 @@ Divide data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.divide_raw_data_data_view_request import DivideRawDataDataViewRequest
-from openapi_client.model.divide_raw_data_data_view_response import DivideRawDataDataViewResponse
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.divide_raw_data_data_view_response import DivideRawDataDataViewResponse
+from aifs_client.model.divide_raw_data_data_view_request import DivideRawDataDataViewRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -377,7 +377,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->divide_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -459,19 +459,19 @@ Filter annotations in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.filter_annotations_in_data_view_response import FilterAnnotationsInDataViewResponse
-from openapi_client.model.filter_annotations_in_data_view_request import FilterAnnotationsInDataViewRequest
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.filter_annotations_in_data_view_request import FilterAnnotationsInDataViewRequest
+from aifs_client.model.filter_annotations_in_data_view_response import FilterAnnotationsInDataViewResponse
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -489,7 +489,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->filter_annotations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -571,18 +571,18 @@ Get all annotation data in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.annotation_view_data import AnnotationViewData
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.annotation_view_data import AnnotationViewData
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -596,7 +596,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_all_annotation_data_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -668,18 +668,18 @@ Get all annotation locations in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.annotation_view_locations import AnnotationViewLocations
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.annotation_view_locations import AnnotationViewLocations
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -693,7 +693,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_all_annotation_locations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -765,18 +765,18 @@ Get all raw data locations in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.raw_data_view_locations import RawDataViewLocations
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.raw_data_view_locations import RawDataViewLocations
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -790,7 +790,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_all_raw_data_locations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -862,18 +862,18 @@ Get data view annotations
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.annotation_list_item import AnnotationListItem
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.annotation_list_item import AnnotationListItem
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -890,7 +890,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_annotations_in_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -912,7 +912,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_annotations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1050,18 +1050,18 @@ Get files' locations in artifact data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.artifact_locations import ArtifactLocations
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.artifact_locations import ArtifactLocations
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1075,7 +1075,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_artifact_locations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1147,18 +1147,18 @@ Get data view details
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.data_view_details import DataViewDetails
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.data_view_details import DataViewDetails
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1172,7 +1172,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_data_view_details: %s\n" % e)
 ```
 ### Parameters
@@ -1244,18 +1244,18 @@ Get data view list
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.data_view_list_item import DataViewListItem
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.data_view_list_item import DataViewListItem
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1272,7 +1272,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_data_view_list: %s\n" % e)
 ```
 ### Parameters
@@ -1367,18 +1367,18 @@ Get data view statistics
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.data_view_statistics import DataViewStatistics
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.data_view_statistics import DataViewStatistics
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1392,7 +1392,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_data_view_statistics: %s\n" % e)
 ```
 ### Parameters
@@ -1464,18 +1464,18 @@ Get dataset zip's location in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.dataset_zip_location import DatasetZipLocation
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.dataset_zip_location import DatasetZipLocation
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1489,7 +1489,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_dataset_zip_location_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1561,18 +1561,18 @@ Get all model data locations in a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.model_data_view_locations import ModelDataViewLocations
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.model_data_view_locations import ModelDataViewLocations
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1586,7 +1586,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_model_data_locations_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1658,18 +1658,18 @@ Get data view raw data hash list.
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.raw_data_hash_list import RawDataHashList
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.raw_data_hash_list import RawDataHashList
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1686,7 +1686,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_raw_data_hash_list_in_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -1704,7 +1704,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_raw_data_hash_list_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1800,19 +1800,19 @@ Get data view raw data
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.raw_data_type import RawDataType
-from openapi_client.model.raw_data_list_item import RawDataListItem
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.raw_data_list_item import RawDataListItem
+from aifs_client.model.raw_data_type import RawDataType
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -1829,7 +1829,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_raw_data_in_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -1852,7 +1852,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->get_raw_data_in_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -1997,17 +1997,17 @@ Hard delete a data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
+import aifs_client
+from aifs_client.apis.tags import data_view_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -2020,7 +2020,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.hard_delete_data_view(
             path_params=path_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->hard_delete_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -2085,19 +2085,19 @@ Merge data views, generate a new data view to put the result
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.merge_data_views_request import MergeDataViewsRequest
-from openapi_client.model.merge_data_views_success_resp import MergeDataViewsSuccessResp
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.merge_data_views_request import MergeDataViewsRequest
+from aifs_client.model.merge_data_views_success_resp import MergeDataViewsSuccessResp
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -2115,7 +2115,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->merge_data_views: %s\n" % e)
 ```
 ### Parameters
@@ -2182,18 +2182,18 @@ Merge other data views to current data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.merge_data_views_request import MergeDataViewsRequest
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.merge_data_views_request import MergeDataViewsRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -2214,7 +2214,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->merge_data_views_to_crurrent: %s\n" % e)
 ```
 ### Parameters
@@ -2289,18 +2289,18 @@ Move data items from data view A to data view B
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.move_data_view_items_request import MoveDataViewItemsRequest
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.move_data_view_items_request import MoveDataViewItemsRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -2314,7 +2314,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.move_data_view_items(
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->move_data_view_items: %s\n" % e)
 ```
 ### Parameters
@@ -2374,18 +2374,18 @@ Update a dataset-zip view meta
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_api
-from openapi_client.model.update_dataset_zip_request import UpdateDatasetZipRequest
+import aifs_client
+from aifs_client.apis.tags import data_view_api
+from aifs_client.model.update_dataset_zip_request import UpdateDatasetZipRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_api.DataViewApi(api_client)
 
@@ -2410,7 +2410,7 @@ null,
             path_params=path_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewApi->update_dataset_zip_view: %s\n" % e)
 ```
 ### Parameters

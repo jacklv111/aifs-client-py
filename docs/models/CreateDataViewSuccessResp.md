@@ -1,4 +1,4 @@
-# openapi_client.model.create_data_view_success_resp.CreateDataViewSuccessResp
+# aifs_client.model.create_data_view_success_resp.CreateDataViewSuccessResp
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

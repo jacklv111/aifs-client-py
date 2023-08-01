@@ -1,4 +1,4 @@
-# openapi_client.model.raw_data_hash_list.RawDataHashList
+# aifs_client.model.raw_data_hash_list.RawDataHashList
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

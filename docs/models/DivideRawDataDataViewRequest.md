@@ -1,4 +1,4 @@
-# openapi_client.model.divide_raw_data_data_view_request.DivideRawDataDataViewRequest
+# aifs_client.model.divide_raw_data_data_view_request.DivideRawDataDataViewRequest
 
 the sum of the ratios should be 100
 

@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.data_view_upload_api.DataViewUploadApi
+# aifs_client.apis.tags.data_view_upload_api.DataViewUploadApi
 
 All URIs are relative to *https://www.example.com/api/open/v1*
 
@@ -22,18 +22,18 @@ Upload annotations to data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_upload_api
-from openapi_client.model.upload_annotation_format import UploadAnnotationFormat
+import aifs_client
+from aifs_client.apis.tags import data_view_upload_api
+from aifs_client.model.upload_annotation_format import UploadAnnotationFormat
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_upload_api.DataViewUploadApi(api_client)
 
@@ -46,7 +46,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.upload_annotation_to_data_view(
             path_params=path_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_annotation_to_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -65,7 +65,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_annotation_to_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -175,17 +175,17 @@ Upload dataset zip
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_upload_api
+import aifs_client
+from aifs_client.apis.tags import data_view_upload_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_upload_api.DataViewUploadApi(api_client)
 
@@ -204,7 +204,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             header_params=header_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_dataset_zip_to_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -295,17 +295,17 @@ Upload file to data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_upload_api
+import aifs_client
+from aifs_client.apis.tags import data_view_upload_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_upload_api.DataViewUploadApi(api_client)
 
@@ -324,7 +324,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             header_params=header_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_file_to_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -415,17 +415,17 @@ Upload model data to data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_upload_api
+import aifs_client
+from aifs_client.apis.tags import data_view_upload_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_upload_api.DataViewUploadApi(api_client)
 
@@ -438,7 +438,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.upload_model_data_to_data_view(
             path_params=path_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_model_data_to_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -465,7 +465,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_model_data_to_data_view: %s\n" % e)
 ```
 ### Parameters
@@ -568,17 +568,17 @@ Upload raw data to data view
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import data_view_upload_api
+import aifs_client
+from aifs_client.apis.tags import data_view_upload_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = data_view_upload_api.DataViewUploadApi(api_client)
 
@@ -591,7 +591,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         api_response = api_instance.upload_raw_data_to_data_view(
             path_params=path_params,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_raw_data_to_data_view: %s\n" % e)
 
     # example passing only optional values
@@ -609,7 +609,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
             body=body,
         )
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling DataViewUploadApi->upload_raw_data_to_data_view: %s\n" % e)
 ```
 ### Parameters

@@ -1,4 +1,4 @@
-# openapi_client.model.merge_data_views_request.MergeDataViewsRequest
+# aifs_client.model.merge_data_views_request.MergeDataViewsRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.error.Error
+# aifs_client.model.error.Error
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

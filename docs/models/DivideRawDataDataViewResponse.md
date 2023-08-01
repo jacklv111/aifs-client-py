@@ -1,4 +1,4 @@
-# openapi_client.model.divide_raw_data_data_view_response.DivideRawDataDataViewResponse
+# aifs_client.model.divide_raw_data_data_view_response.DivideRawDataDataViewResponse
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

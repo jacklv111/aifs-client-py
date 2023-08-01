@@ -1,4 +1,4 @@
-# openapi_client.model.data_view_details.DataViewDetails
+# aifs_client.model.data_view_details.DataViewDetails
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

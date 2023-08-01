@@ -1,4 +1,4 @@
-# openapi_client.model.raw_data_view_locations.RawDataViewLocations
+# aifs_client.model.raw_data_view_locations.RawDataViewLocations
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

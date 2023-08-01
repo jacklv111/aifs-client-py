@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.annotation_template_type_api.AnnotationTemplateTypeApi
+# aifs_client.apis.tags.annotation_template_type_api.AnnotationTemplateTypeApi
 
 All URIs are relative to *https://www.example.com/api/open/v1*
 
@@ -18,18 +18,18 @@ Get annotation template type list
 ### Example
 
 ```python
-import openapi_client
-from openapi_client.apis.tags import annotation_template_type_api
-from openapi_client.model.annotation_template_type_list import AnnotationTemplateTypeList
+import aifs_client
+from aifs_client.apis.tags import annotation_template_type_api
+from aifs_client.model.annotation_template_type_list import AnnotationTemplateTypeList
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.example.com/api/open/v1
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = aifs_client.Configuration(
     host = "https://www.example.com/api/open/v1"
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with aifs_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = annotation_template_type_api.AnnotationTemplateTypeApi(api_client)
 
@@ -44,7 +44,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except aifs_client.ApiException as e:
         print("Exception when calling AnnotationTemplateTypeApi->get_anno_template_type_list: %s\n" % e)
 ```
 ### Parameters

@@ -1,4 +1,4 @@
-# openapi_client.model.create_data_view_request.CreateDataViewRequest
+# aifs_client.model.create_data_view_request.CreateDataViewRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

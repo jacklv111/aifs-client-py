@@ -1,4 +1,4 @@
-# openapi_client.model.image_data.ImageData
+# aifs_client.model.image_data.ImageData
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

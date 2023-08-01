@@ -1,4 +1,4 @@
-# openapi_client.model.artifact_locations.ArtifactLocations
+# aifs_client.model.artifact_locations.ArtifactLocations
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.label.Label
+# aifs_client.model.label.Label
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

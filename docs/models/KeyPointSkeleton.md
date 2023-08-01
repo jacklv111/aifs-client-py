@@ -1,4 +1,4 @@
-# openapi_client.model.key_point_skeleton.KeyPointSkeleton
+# aifs_client.model.key_point_skeleton.KeyPointSkeleton
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

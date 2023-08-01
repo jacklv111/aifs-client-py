@@ -1,4 +1,4 @@
-# openapi_client.model.raw_data_type.RawDataType
+# aifs_client.model.raw_data_type.RawDataType
 
 the type of raw data
 

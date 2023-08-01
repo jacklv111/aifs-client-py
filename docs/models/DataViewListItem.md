@@ -1,4 +1,4 @@
-# openapi_client.model.data_view_list_item.DataViewListItem
+# aifs_client.model.data_view_list_item.DataViewListItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

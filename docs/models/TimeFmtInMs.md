@@ -1,4 +1,4 @@
-# openapi_client.model.time_fmt_in_ms.TimeFmtInMs
+# aifs_client.model.time_fmt_in_ms.TimeFmtInMs
 
 Unix timestamp in ms
 

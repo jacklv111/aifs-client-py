@@ -1,4 +1,4 @@
-# openapi_client.model.model_data_view_locations.ModelDataViewLocations
+# aifs_client.model.model_data_view_locations.ModelDataViewLocations
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

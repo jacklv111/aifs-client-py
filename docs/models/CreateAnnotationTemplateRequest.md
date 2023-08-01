@@ -1,4 +1,4 @@
-# openapi_client.model.create_annotation_template_request.CreateAnnotationTemplateRequest
+# aifs_client.model.create_annotation_template_request.CreateAnnotationTemplateRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.upload_annotation_format.UploadAnnotationFormat
+# aifs_client.model.upload_annotation_format.UploadAnnotationFormat
 
 the format of the data
 

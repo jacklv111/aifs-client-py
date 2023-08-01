@@ -1,4 +1,4 @@
-# openapi_client.model.annotation_list_item.AnnotationListItem
+# aifs_client.model.annotation_list_item.AnnotationListItem
 
 the result of get annotation list
 

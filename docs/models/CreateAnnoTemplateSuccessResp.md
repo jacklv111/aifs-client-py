@@ -1,4 +1,4 @@
-# openapi_client.model.create_anno_template_success_resp.CreateAnnoTemplateSuccessResp
+# aifs_client.model.create_anno_template_success_resp.CreateAnnoTemplateSuccessResp
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

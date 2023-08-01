@@ -1,4 +1,4 @@
-# openapi_client.model.label_distribution.LabelDistribution
+# aifs_client.model.label_distribution.LabelDistribution
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

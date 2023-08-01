@@ -1,4 +1,4 @@
-# openapi_client.model.dataset_zip_location.DatasetZipLocation
+# aifs_client.model.dataset_zip_location.DatasetZipLocation
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

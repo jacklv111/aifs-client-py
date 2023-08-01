@@ -1,4 +1,4 @@
-# openapi_client.model.annotation_view_locations.AnnotationViewLocations
+# aifs_client.model.annotation_view_locations.AnnotationViewLocations
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.update_dataset_zip_request.UpdateDatasetZipRequest
+# aifs_client.model.update_dataset_zip_request.UpdateDatasetZipRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.filter_annotations_in_data_view_request.FilterAnnotationsInDataViewRequest
+# aifs_client.model.filter_annotations_in_data_view_request.FilterAnnotationsInDataViewRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

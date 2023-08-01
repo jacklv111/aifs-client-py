@@ -1,4 +1,4 @@
-# openapi_client.model.raw_data_list_item.RawDataListItem
+# aifs_client.model.raw_data_list_item.RawDataListItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.key_point_def.KeyPointDef
+# aifs_client.model.key_point_def.KeyPointDef
 
 the defination of the key points
 

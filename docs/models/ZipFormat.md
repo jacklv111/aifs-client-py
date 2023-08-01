@@ -1,4 +1,4 @@
-# openapi_client.model.zip_format.ZipFormat
+# aifs_client.model.zip_format.ZipFormat
 
 the structure of the files in zip file
 
